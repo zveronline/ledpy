@@ -4,4 +4,4 @@ ADD ./scripts /scripts
 WORKDIR /scripts
 RUN pip3 install pyserial
 
-CMD ["python led.py"]
+CMD python led.py

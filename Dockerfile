@@ -4,4 +4,4 @@ ADD ./scripts /scripts
 WORKDIR /scripts
 RUN pip3 install pyserial
 
-ENTRYPOINT ["python3 led.py"]
+CMD ["python3 led.py"]

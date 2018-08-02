@@ -1,6 +1,6 @@
-FROM python:3.6.5-alpine
+FROM python:alpine
 
-ADD ./scripts /scripts
+ADD scripts /scripts
 WORKDIR /scripts
 RUN apk add --update bash nano
 RUN pip3 install pyserial

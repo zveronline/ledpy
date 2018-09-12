@@ -5,4 +5,4 @@ WORKDIR /scripts
 RUN apk add --update bash nano
 RUN pip3 install pyserial
 
-CMD python led.py
+CMD python -u led.py
